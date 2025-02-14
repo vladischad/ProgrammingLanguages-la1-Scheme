@@ -1,5 +1,3 @@
-#lang racket
-
 (define (duplicate-element elem count)
   (if (= count 0)
       '()
