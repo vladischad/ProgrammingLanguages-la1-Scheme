@@ -1,3 +1,10 @@
+;*******************************************************************************
+; Program: super-duper.scm
+; Function: takes atoms from source and iterates them count times
+; Class: CS354-002
+; Author: Vladyslav (Vlad) Maliutin
+;*******************************************************************************
+
 (define (duplicate-element elem count)
   (if (= count 0)
       '()
